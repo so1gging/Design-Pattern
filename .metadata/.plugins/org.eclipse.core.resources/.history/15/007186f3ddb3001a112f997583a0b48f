@@ -16,10 +16,6 @@ public class MiniDuckSimulator {
 		
 		mallard.setFlyBehavior(new FlyNoWay());
 		mallard.setQuackBehavior(new Squeak());
-		
-		mallard.display();
-		mallard.performFly();
-		mallard.performQuack();
 	}
 
 }

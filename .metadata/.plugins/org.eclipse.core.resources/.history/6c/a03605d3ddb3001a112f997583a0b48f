@@ -19,15 +19,6 @@ public abstract class Duck {
 		quackBehavior.quack();
 	}
 	
-	// 동적으로 행동 지정
-	public void setFlyBehavior(FlyBehavior fb) {
-		this.flyBejavior = fb;
-	}
-	
-	public void setQuackBehavior(QuackBehavior qb) {
-		this.quackBehavior = qb;
-	}
-	
 	public void swim() {
 		System.out.println("모든 오리는 물에 뜹니다. 가짜 오리도 뜨죠.");
 	}
